@@ -1,0 +1,9 @@
+[submodule "vendor/emacs-emamux"]
+	path = vendor/emacs-emamux
+	url = https://github.com/syohex/emacs-emamux.git
+[submodule "vendor/emamux-ruby-test"]
+	path = vendor/emamux-ruby-test
+	url = https://github.com/syohex/emamux-ruby-test.git
+[submodule "vendor/ag.el"]
+	path = vendor/ag.el
+	url = https://github.com/Wilfred/ag.el.git
