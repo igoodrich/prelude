@@ -8,7 +8,9 @@ library to the mix. The final product offers an easy to use Emacs
 configuration for Emacs newcomers and lots of additional power for
 Emacs power users.
 
-Prelude is compatible **ONLY with GNU Emacs 24.x**.
+Prelude is compatible **ONLY with GNU Emacs 24.x**. In general you're
+advised to always run Prelude with the latest Emacs - currently
+**24.3**.
 
 ## Fast Forward
 
@@ -135,7 +137,11 @@ By default most of the modules that ship with Prelude are not loaded.
 (require 'prelude-xml)
 ```
 
-You'll need to adjust your `prelude-modules.el` file once the installation is done.
+You'll need to adjust your `prelude-modules.el` file once the
+installation is done. If you are doing a manual install then you first
+need to copy the `prelude-modules.el` available in the sample
+directory to the root of `path/to/prelude/installation` and then
+adjust that one.
 
 After you've uncommented a module you should either restart Emacs or evaluate the module
 `require` expression with <kbd>C-x C-e</kbd>.
@@ -192,7 +198,7 @@ Keybinding         | Description
 <kbd>C--</kbd>     | Decrease font size(`text-scale-decrease`).
 <kbd>C-x O</kbd>   | Go back to previous window (the inverse of `other-window` (`C-x o`)).
 <kbd>C-x ^</kbd>   | Join two lines into one(`join-line`).
-<kbd>C-x p</kbd>   | Start `proced` (manage processes form Emacs, works only in Linux).
+<kbd>C-x p</kbd>   | Start `proced` (manage processes from Emacs; works only in Linux).
 <kbd>C-x m</kbd>   | Start `eshell`.
 <kbd>C-x M-m</kbd> | Start your default shell.
 <kbd>C-x C-m</kbd> | Alias for `M-x`.
