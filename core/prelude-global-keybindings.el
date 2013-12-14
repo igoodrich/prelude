@@ -114,8 +114,8 @@
 ;; key chords
 (require 'key-chord)
 
-(key-chord-define-global "jj" 'ace-jump-mode)
-(key-chord-define-global "JJ" 'prelude-switch-to-previous-buffer)
+;; (key-chord-define-global "jj" 'ace-jump-mode)
+;; (key-chord-define-global "JJ" 'prelude-switch-to-previous-buffer)
 
 (key-chord-mode +1)
 
